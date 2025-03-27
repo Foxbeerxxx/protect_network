@@ -48,7 +48,7 @@ sudo nmap -sV 192.168.1.10
 
 ![3](https://github.com/Foxbeerxxx/protect_network/blob/main/img/img3.png)`
 
-4. `Fail2ban на nmap сканирование не реагирует`
+
 
 
 
