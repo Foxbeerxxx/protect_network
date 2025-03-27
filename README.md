@@ -56,13 +56,17 @@ sudo nmap -sV 192.168.1.10
 
 ### Задание 2
 
+1. `Подготавливаю словари user.txt и pass.txt`
+![5](https://github.com/Foxbeerxxx/protect_network/blob/main/img/img5.png)`
+
+![6](https://github.com/Foxbeerxxx/protect_network/blob/main/img/img6.png)`
 
 
-1. ` отключаю сервис fail2ban и пробую подбирать пароль и логин через hydra`
+2. ` отключаю сервис fail2ban и пробую подбирать пароль и логин через hydra`
 ```
 hydra -L user.txt -P pass.txt 192.168.1.140 ssh
 ```
-2. `Смотрим лог`
+3. `Смотрим лог`
 ![4](https://github.com/Foxbeerxxx/protect_network/blob/main/img/img4.png)`
 
 3. `Заполните здесь этапы выполнения, если требуется ....`
